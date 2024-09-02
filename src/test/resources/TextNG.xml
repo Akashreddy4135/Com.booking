@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FlightSearchSuite" parallel="methods" thread-count="5">
+    <listeners>
+        <listener class-name="CustomListener"/> <!-- Replace with the actual package name of your CustomListener.java -->
+    </listeners>
+    <test name="FlightSearchTests">
+        <classes>
+          <class name="xmlcode"/>  <!-- Replace with the actual package name of xmlTest -->
+            <class name="Assrtionfile"/> <!-- Replace with the actual package name of Assrtionfile -->
+        </classes>
+    </test>
+</suite>
